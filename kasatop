@@ -42,3 +42,23 @@ end)
 tab.newButton("الوحش او الاخضر", "بدون مفتاح", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinAE"))()
 end)
+
+
+
+
+tab.newButton("البركان", "بدون مفتاح", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/wpisstestfprg/Volcano/refs/heads/main/VolcanoLocal.lua", true))()
+end)
+
+
+tab.newButton("QTONYX", "بدون مفتاح", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/FlazhGG/QTONYX/refs/heads/main/NextGeneration.lua"))()
+end)
+
+
+
+tab.newButton("بلويكس", "بدون مفتاح", function()
+    _G.Team = "Pirates"
+_G.FixLag = true
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
+end)
