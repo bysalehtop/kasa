@@ -152,6 +152,12 @@ local TextLabel = AddTextLabel(mainTab, {
 })
 
 
+local TextLabel = AddTextLabel(mainTab, {
+    Text = "اغلب السكربتات من رولكس "
+})
+
+
+
 AddButton(mainTab, {
     Name = "سيرفر الدسكورد",
     Callback = function()
@@ -171,10 +177,45 @@ local mainTab = NewTab({
 
 
 
+AddButton(mainTab, {
+    Name = "ريدز | بدون مفتاح",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))()
+        wait(1)
+        EditSectionText(Section, "Section")
+    end
+})
 
 
 
+AddButton(mainTab, {
+    Name = "ازورا | بدون مفتاح",
+    Callback = function()
+        loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+        wait(1)
+        EditSectionText(Section, "Section")
+    end
+})
 
+
+
+AddButton(mainTab, {
+    Name = "دورايمون | بدون مفتاح",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua"))()
+        wait(1)
+        EditSectionText(Section, "Section")
+    end
+})
+
+AddButton(mainTab, {
+    Name = "سكربت القمر  | مفتاح",
+    Callback = function()
+       loadstring(game:HttpGet"https://raw.githubusercontent.com/UserDevEthical/Loadstring/main/CokkaHub.lua")() 
+        wait(1)
+        EditSectionText(Section, "Section")
+    end
+})
 
 
 
