@@ -436,3 +436,97 @@ local mainTab = NewTab({
 })
 
 
+
+-- سكربت عشوا
+
+local mainTab = NewTab({
+    Name = "سكربتات عشوائيه",
+    Icon = "Home"
+})
+
+
+AddButton(mainTab, {
+    Name = "Murder Vs sheriff",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubMurdervssheriff"))()
+
+        wait(1)
+        EditSectionText(Section, "Section")
+    end
+})
+
+
+AddButton(mainTab, {
+    Name = "طيران عربي",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+
+        wait(1)
+        EditSectionText(Section, "Section")
+    end
+})
+
+
+AddButton(mainTab, {
+    Name = "شيندو لايف",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/XDima2/XDima2/main/RaumHub"))()
+        wait(1)
+        EditSectionText(Section, "Section")
+    end
+})
+
+AddButton(mainTab, {
+    Name = "doors",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/kodbolx/kodbolhub/refs/heads/main/KodbolHub%20%3A%20Doors"))()
+        wait(1)
+        EditSectionText(Section, "Section")
+    end
+})
+
+
+AddButton(mainTab, {
+    Name = "Rivals",
+    Callback = function()
+        loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/47fc2ea07fef3d78fb68ca87ab2b7503.lua"))()
+
+        wait(1)
+        EditSectionText(Section, "Section")
+    end
+})
+
+
+AddButton(mainTab, {
+    Name = "Pop lt Trading",
+    Callback = function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/dcyuEgyK'))()
+        wait(1)
+        EditSectionText(Section, "Section")
+    end
+})
+
+
+AddButton(mainTab, {
+    Name = "ارسنال",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/ex55/weed-client/refs/heads/main/main.lua"))()
+
+        wait(1)
+        EditSectionText(Section, "Section")
+    end
+})
+
+AddButton(mainTab, {
+    Name = "war تايكون",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Cazzanos/The-basement/main/Basement%20hub", true))()
+
+        wait(1)
+        EditSectionText(Section, "Section")
+    end
+})
+
+
+
+
