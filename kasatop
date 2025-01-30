@@ -239,4 +239,20 @@ tab.newButton("11", "ايس هوب", function()
 end)
 
 
+tab.newButton("12", "ريدز الأصلي+ نسخ سكنات", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/REDzHUB/main/REDzHUB"))()
+end)
+
+tab.newButton("13", "ترول", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TrollGuiMaker/f0rtuit0us-hub/refs/heads/main/old"))()
+end)
+
+
+
+
+tab.newButton("14", "الشبح", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
+end)
+
+
 
