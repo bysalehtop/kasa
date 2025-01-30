@@ -218,6 +218,28 @@ AddButton(mainTab, {
 })
 
 
+AddButton(mainTab, {
+    Name = "سكربت الاصفر: بدون مفتاح",
+    Callback = function()
+        repeat wait() until game:IsLoaded() and game.Players.LocalPlayer 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnDepZaiHubBeta/refs/heads/main/AnDepZaiHubNewUpdated.lua"))()
+        wait(1)
+        EditSectionText(Section, "Section")
+    end
+})
+
+
+
+AddButton(mainTab, {
+    Name = "سبيد: بدون مفتاح",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua'))()
+        wait(1)
+        EditSectionText(Section, "Section")
+    end
+})
+
+
 
 
 
