@@ -119,6 +119,11 @@ tab.newButton("اضغط هنا لنسخ رابط القناة", "تدلل", func
 end)
 
 
+tab.newButton("ملاحظه اغلب السكربتات من", "@SPscript1", function()
+    print('Hello!')
+end)
+
+
 
 -- بلوكس فروت
 
