@@ -173,3 +173,49 @@ tab.newButton("بلويكس", "بدون مفتاح", function()
 _G.FixLag = true
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
 end)
+
+
+-- ماب البيوت
+
+
+local tab = DrRayLibrary.newTab("ماب البيوت", "ImageIdHere")
+
+
+
+tab.newButton("1", "", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/TheDarkoneMarcillisePex/Other-Scripts/main/Brook%20Haven%20Gui'))()
+end)
+
+
+tab.newButton("2", "بدون مفتاح", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/gjQUGX/DXVUSEW/refs/heads/main/Sunterium-Hub/DELTA"))()
+end)
+
+
+
+tab.newButton("3", "مانجو", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/rogelioajax/lua/main/MangoHub", true))()
+end)
+
+tab.newButton("4", "ريدز", function()
+    
+loadstring(game:HttpGet("https://raw.githubusercontent.com/realgengar/Brookhaven/refs/heads/main/Source.lua"))()
+end)
+
+
+tab.newButton("5", "ايس هوب", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/anyahubs/FE/main/ICEHUB_ARABIC"))()
+end)
+
+
+tab.newButton("6", "تخريب", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/VR7ss/OMK/main/VR7%20RAGDOLL"))()
+end)
+
+
+
+tab.newButton("7", "نجمه", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/AvatarUnlocker/main/IceHub"))()
+end)
+
+
