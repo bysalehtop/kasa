@@ -256,3 +256,62 @@ end)
 
 
 
+
+
+-- ام ام تو
+
+
+
+local tab = DrRayLibrary.newTab("ام ام تو", "ImageIdHere")
+
+
+
+tab.newButton("ام ام تو عربي وانقليزي", "1", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Au0yX/Community/main/XhubMM2"))()
+end)
+
+tab.newButton("سيستم", "2", function()
+    loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-System-hub-V2-13161"))()
+end)
+
+
+
+
+
+
+
+
+-- كينج لجسي
+
+local tab = DrRayLibrary.newTab("كينج لجسي", "ImageIdHere")
+
+
+tab.newButton("قريبا", "soon", function()
+    print('Hello!')
+end)
+
+
+
+-- عش
+
+
+local tab = DrRayLibrary.newTab("سكربتات عشوائيه", "ImageIdHere")
+
+
+tab.newButton("طيران", "مطور", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+
+end)
+
+
+
+tab.newButton("شيندو لايف", "قوي", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/XDima2/XDima2/main/RaumHub"))()
+end)
+
+
+
+tab.newButton("ماب دورز", "doors", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kodbolx/kodbolhub/refs/heads/main/KodbolHub%20%3A%20Doors"))()
+end)
+
