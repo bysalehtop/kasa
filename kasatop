@@ -219,3 +219,24 @@ tab.newButton("7", "نجمه", function()
 end)
 
 
+tab.newButton("8", "اوتميك هوب عربي", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/n0kc/AtomicHub/main/Map-Al-Biout.lua"))()
+end)
+
+
+tab.newButton("9", "الرحمه", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Ndora1/Ndora1/main/Nokia%20Hub.lua'))()
+
+end)
+
+tab.newButton("10", "X hub غربي وانلقليزي", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Luarmor123/community-Y-HUB/refs/heads/main/YHUB%20Brookhaven"))()
+end)
+
+
+tab.newButton("11", "ايس هوب", function()
+    loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Ice-Hub-6414"))()
+end)
+
+
+
