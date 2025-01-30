@@ -315,3 +315,19 @@ tab.newButton("ماب دورز", "doors", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/kodbolx/kodbolhub/refs/heads/main/KodbolHub%20%3A%20Doors"))()
 end)
 
+
+
+tab.newButton("Rivals", "قوي", function()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/47fc2ea07fef3d78fb68ca87ab2b7503.lua"))()
+
+end)
+
+
+tab.newButton("سرقه اكواد اغاني", "جميع مابات", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/wN9Q3pZm",true))()
+end)
+
+tab.newButton("قتل ناس", "شغال جميع مابات", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Ndora1/Ndora1/main/Ndora'))()
+end)
+
