@@ -189,6 +189,19 @@ AddButton(mainTab, {
 
 
 AddButton(mainTab, {
+    Name = " بدون مفتاح : فكتور ",
+    Callback = function()
+        _G.Mode = "English"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tuxoz/VectorHub/main/MBPC"))()
+        wait(1)
+        EditSectionText(Section, "Section")
+    end
+})
+
+
+
+
+AddButton(mainTab, {
     Name = "ازورا | بدون مفتاح",
     Callback = function()
         loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
@@ -253,6 +266,129 @@ local mainTab = NewTab({
 
 
 
+AddButton(mainTab, {
+    Name = "سكربت دراكن اسطوري",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/TheDarkoneMarcillisePex/Other-Scripts/main/Brook%20Haven%20Gui'))()
+        wait(1)
+        EditSectionText(Section, "Section")
+    end
+})
+
+
+
+AddButton(mainTab, {
+    Name = "ريل سي",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/gjQUGX/DXVUSEW/refs/heads/main/Sunterium-Hub/DELTA"))() 
+        wait(1)
+        EditSectionText(Section, "Section")
+    end
+})
+
+
+
+
+
+AddButton(mainTab, {
+    Name = "نسخ سكن",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/refs/heads/main/Copy%20Avatar'))()
+        wait(1)
+        EditSectionText(Section, "Section")
+    end
+})
+
+
+
+AddButton(mainTab, {
+    Name = "مانجو",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/rogelioajax/lua/main/MangoHub", true))()
+        wait(1)
+        EditSectionText(Section, "Section")
+    end
+})
+
+
+
+AddButton(mainTab, {
+    Name = "شادو",
+    Callback = function()
+        
+loadstring(game:HttpGet("https://raw.githubusercontent.com/realgengar/Brookhaven/refs/heads/main/Source.lua"))()
+        wait(1)
+        EditSectionText(Section, "Section")
+    end
+})
+
+
+
+AddButton(mainTab, {
+    Name = "ايس هوب العربي",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/anyahubs/FE/main/ICEHUB_ARABIC"))()
+        wait(1)
+        EditSectionText(Section, "Section")
+    end
+})
+
+
+
+
+AddButton(mainTab, {
+    Name = "سكربت تخريب",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/VR7ss/OMK/main/VR7%20RAGDOLL"))()
+        wait(1)
+        EditSectionText(Section, "Section")
+    end
+})
+
+
+AddButton(mainTab, {
+    Name = "الرحمه",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/n0kc/AtomicHub/main/Map-Al-Biout.lua"))() 
+        wait(1)
+        EditSectionText(Section, "Section")
+    end
+})
+
+
+
+
+
+AddButton(mainTab, {
+    Name = "X Hub عربي وانقليزي",
+    Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Luarmor123/community-Y-HUB/refs/heads/main/YHUB%20Brookhaven"))()  
+        wait(1)
+        EditSectionText(Section, "Section")
+    end
+})
+
+
+
+
+
+AddButton(mainTab, {
+    Name = "ايس هوب",
+    Callback = function()
+        loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Ice-Hub-6414"))()
+        wait(1)
+        EditSectionText(Section, "Section")
+    end
+})
+
+AddButton(mainTab, {
+    Name = "ريدز ماب البيوت",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/REDzHUB/main/REDzHUB"))()
+        wait(1)
+        EditSectionText(Section, "Section")
+    end
+})
 
 
 
