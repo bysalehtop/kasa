@@ -104,237 +104,69 @@ end
 
 
 
-local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
-local window = DrRayLibrary:Load("لوفير", "Default")
-
-local tab = DrRayLibrary.newTab("القائمة الأساسية", "ImageIdHere")
-
-tab.newInput("حقوق صالح × كلر", "", function(text)
-    print("Entered text: " .. text)
-    
-end)
-
-tab.newButton("اضغط هنا لنسخ رابط القناة"," ملاحظة لازم تدخل سيرفر الدسكورد مهم جدا", function()
-    setclipboard('https://discord.gg/c7bEAv4Tyk')
-end)
-
-
-
-
-
-
-
-
-
-tab.newButton("ملاحظه اغلب السكربتات من", "@SPscript1", function()
-    print('Hello!')
-end)
-
-
-
--- بلوكس فروت
-
-
-local tab = DrRayLibrary.newTab("سكربتات بلوكس فروت", "ImageIdHere")
-
-
-tab.newButton("ريدز", "بدون مفتاح", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))()
-end)
-
-tab.newButton("ازورا", "بدون مفتاح", function()
-    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
-end)
-
-
-tab.newButton("اخو ريدز", "بدون مفتاحomg", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua"))()
-end)
-
-
-tab.newButton("!!!!القمر", "لازم مفتاح", function()
-    loadstring(game:HttpGet"https://raw.githubusercontent.com/UserDevEthical/Loadstring/main/CokkaHub.lua")()
-end)
-
-
-tab.newButton("الوحش او الاخضر", "بدون مفتاح", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinAE"))()
-end)
-
-
-
-
-tab.newButton("البركان", "بدون مفتاح", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/wpisstestfprg/Volcano/refs/heads/main/VolcanoLocal.lua", true))()
-end)
-
-
-tab.newButton("QTONYX", "بدون مفتاح", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/FlazhGG/QTONYX/refs/heads/main/NextGeneration.lua"))()
-end)
-
-
-
-tab.newButton("بلويكس", "بدون مفتاح", function()
-    _G.Team = "Pirates"
-_G.FixLag = true
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
-end)
-
-
--- ماب البيوت
-
-
-local tab = DrRayLibrary.newTab("ماب البيوت", "ImageIdHere")
-
-
-
-tab.newButton("1", "", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/TheDarkoneMarcillisePex/Other-Scripts/main/Brook%20Haven%20Gui'))()
-end)
-
-
-tab.newButton("2", "بدون مفتاح", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/gjQUGX/DXVUSEW/refs/heads/main/Sunterium-Hub/DELTA"))()
-end)
-
-
-
-tab.newButton("3", "مانجو", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/rogelioajax/lua/main/MangoHub", true))()
-end)
-
-tab.newButton("4", "ريدز", function()
-    
-loadstring(game:HttpGet("https://raw.githubusercontent.com/realgengar/Brookhaven/refs/heads/main/Source.lua"))()
-end)
-
-
-tab.newButton("5", "ايس هوب", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/anyahubs/FE/main/ICEHUB_ARABIC"))()
-end)
-
-
-tab.newButton("6", "تخريب", function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/VR7ss/OMK/main/VR7%20RAGDOLL"))()
-end)
-
-
-
-tab.newButton("7", "نجمه", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/AvatarUnlocker/main/IceHub"))()
-end)
-
-
-tab.newButton("8", "اوتميك هوب عربي", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/n0kc/AtomicHub/main/Map-Al-Biout.lua"))()
-end)
-
-
-tab.newButton("9", "الرحمه", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/Ndora1/Ndora1/main/Nokia%20Hub.lua'))()
-
-end)
-
-tab.newButton("10", "X hub غربي وانلقليزي", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Luarmor123/community-Y-HUB/refs/heads/main/YHUB%20Brookhaven"))()
-end)
-
-
-tab.newButton("11", "ايس هوب", function()
-    loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Ice-Hub-6414"))()
-end)
-
-
-tab.newButton("12", "ريدز الأصلي+ نسخ سكنات", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/REDzHUB/main/REDzHUB"))()
-end)
-
-tab.newButton("13", "ترول", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/TrollGuiMaker/f0rtuit0us-hub/refs/heads/main/old"))()
-end)
-
-
-
-
-tab.newButton("14", "الشبح", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
-end)
-
-
-
-
-
--- ام ام تو
-
-
-
-local tab = DrRayLibrary.newTab("ام ام تو", "ImageIdHere")
-
-
-
-tab.newButton("ام ام تو عربي وانقليزي", "1", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Au0yX/Community/main/XhubMM2"))()
-end)
-
-tab.newButton("سيستم", "2", function()
-    loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-System-hub-V2-13161"))()
-end)
-
-
-
-
-
-
-
-
--- كينج لجسي
-
-local tab = DrRayLibrary.newTab("كينج لجسي", "ImageIdHere")
-
-
-tab.newButton("قريبا", "soon", function()
-    print('Hello!')
-end)
-
-
-
--- عش
-
-
-local tab = DrRayLibrary.newTab("سكربتات عشوائيه", "ImageIdHere")
-
-
-tab.newButton("طيران", "مطور", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
-
-end)
-
-
-
-tab.newButton("شيندو لايف", "قوي", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/XDima2/XDima2/main/RaumHub"))()
-end)
-
-
-
-tab.newButton("ماب دورز", "doors", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/kodbolx/kodbolhub/refs/heads/main/KodbolHub%20%3A%20Doors"))()
-end)
-
-
-
-tab.newButton("Rivals", "قوي", function()
-    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/47fc2ea07fef3d78fb68ca87ab2b7503.lua"))()
-
-end)
-
-
-tab.newButton("سرقه اكواد اغاني", "جميع مابات", function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/wN9Q3pZm",true))()
-end)
-
-tab.newButton("قتل ناس", "شغال جميع مابات", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/Ndora1/Ndora1/main/Ndora'))()
-end)
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Darkmoonxhubscript/DarkLibV3/refs/heads/main/Source.luau"))()
+  
+  local Window = MakeWindow({
+    Title = "Loafer script beta ",
+    SubTitle = "By saleh ",
+    Theme = "Purple",
+    Acrylic = true,
+    KeySystem = {
+    Active = true,
+    KeyTitle = "المفتاح",
+    KeyDescription = "المفتاح بالدسكورد اضغط get key لنسخ رابط السيرفر",
+    Keys = {"Loafer", "Loafertop", "Loafer1"},
+    KeyLink = "https://discord.gg/c7bEAv4Tyk"
+    }
+  })
+  
+  AddMinimizeButton({
+    Icon = "105855861857949"
+})
+
+local mainTab = NewTab({
+    Name = "القائمة الرئيسية",
+    Icon = "Home"
+})
+
+local TextLabel = AddTextLabel(mainTab, {
+    Text = "الاصدار 1.0 beta"
+})
+
+local TextLabel = AddTextLabel(mainTab, {
+    Text = "Version 1.0 beta"
+})
+
+
+local TextLabel = AddTextLabel(mainTab, {
+    Text = "ادخل سيرفر الدسكورد للحصول على اخر الاخبار والهاكات والمفتاح"
+})
+
+local TextLabel = AddTextLabel(mainTab, {
+    Text = "Enter the Discord server to get the latest news, hacks and keys"
+})
+
+
+local TextLabel = AddTextLabel(mainTab, {
+    Text = "اغلب السكربتات من سيمو"
+})
+
+AddButton(mainTab, {
+    Name = "نسخ رابط الدسكورد",
+    Callback = function()
+        setclipboard('https://discord.gg/c7bEAv4Tyk')
+        wait(1)
+        EditSectionText(Section, "loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmidd409/Orion/refs/heads/main/%D8%B3%D9%83%D8%B1%D8%A8%D8%AA%20%D8%B7%D9%8A%D8%B1%D8%A7%D9%86"))()
+")
+    end
+})
+
+AddButton(mainTab, {
+    Name = "Copy Discord Server Link",
+    Callback = function()
+        setclipboard('https://discord.gg/c7bEAv4Tyk')
+        wait(1)
+        EditSectionText(Section, "loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmidd409/Orion/refs/heads/main/%D8%B3%D9%83%D8%B1%D8%A8%D8%AA%20%D8%B7%D9%8A%D8%B1%D8%A7%D9%86"))()
+")
+    end
+})
