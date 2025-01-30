@@ -151,13 +151,89 @@ local TextLabel = AddTextLabel(mainTab, {
     Text = "اغلب السكربتات من سيمو"
 })
 
+
 AddButton(mainTab, {
-    Name = "نسخ رابط الدسكورد",
+    Name = "سيرفر الدسكورد",
     Callback = function()
         setclipboard('https://discord.gg/c7bEAv4Tyk')
         wait(1)
-        EditSectionText(Section, "Section"))()
-")
+        EditSectionText(Section, "")
     end
 })
+ 
+-- بلوكس فروت
+
+
+local mainTab = NewTab({
+    Name = "بلوكس فروت",
+    Icon = "Home"
+})
+
+
+
+
+
+
+
+
+
+
+
+
+-- ماب البيوت
+
+local mainTab = NewTab({
+    Name = "ماب البيوت",
+    Icon = "Home"
+})
+
+
+
+
+
+
+
+
+
+
+-- بلو لوك
+
+local mainTab = NewTab({
+    Name = "بلو لوك",
+    Icon = "Home"
+})
+
+
+
+-- ام ام تو
+
+local mainTab = NewTab({
+    Name = "ام ام تو",
+    Icon = "Home"
+})
+
+
+
+
+
+
+-- كينج لجسي
+
+local mainTab = NewTab({
+    Name = "كينج لجسي",
+    Icon = "Home"
+})
+
+
+
+
+
+
+-- ادوبت خره
+
+local mainTab = NewTab({
+    Name = "ادوبت مي",
+    Icon = "Home"
+})
+
 
