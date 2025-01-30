@@ -114,9 +114,16 @@ tab.newInput("حقوق صالح × كلر", "", function(text)
     
 end)
 
-tab.newButton("اضغط هنا لنسخ رابط القناة", "تدلل", function()
-    setclipboard('https://t.me/n_42n')
+tab.newButton("اضغط هنا لنسخ رابط القناة"," ملاحظة لازم تدخل سيرفر الدسكورد مهم جدا", function()
+    setclipboard('https://discord.gg/c7bEAv4Tyk')
 end)
+
+
+
+
+
+
+
 
 
 tab.newButton("ملاحظه اغلب السكربتات من", "@SPscript1", function()
