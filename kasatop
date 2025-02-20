@@ -200,10 +200,19 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Tuxoz/VectorHub/main/
 
 
 
-
 AddButton(mainTab, {
-    Name = "ازورا | بدون مفتاح",
+    Name = "بروجكت : بدون مفتاح",
     Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Trustmenotcondom/QTONYX/refs/heads/main/QuantumOnyx.lua"))()
+        wait(1)
+        EditSectionText(Section, "Section")
+    end
+})
+
+
+
+
+
         loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
         wait(1)
         EditSectionText(Section, "Section")
